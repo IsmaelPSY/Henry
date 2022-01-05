@@ -2,20 +2,21 @@
 <head>
 <title>primera pagina</title>
 	<SCRIPT LANGUAJE="JavaScript">
-		var n;
-		var total = 1; 
-		n= prompt("Ingrese un numero:");
-		if (n<0)
-		{
-		alert ("ingrese un numero positivo");
-		}
-		else
-		{
-		for (i=1; i<=n; i++) {
-		total = total * i; 
-		}
-		alert ("Resultado es: "+ total);
-		}
+        //Programa que determine si el numero es positivo o negativo
+
+        alert("ingrese un numero:");
+        f();
+
+		function f(){
+            var n;
+            n = prompt("ingrese numero:");
+            if(n >= 0){
+                alert("POSITIVO");
+            }
+            else{
+                alert("NEGATIVO");
+            }
+        }
 	</SCRIPT>
 </head>
 <body>
